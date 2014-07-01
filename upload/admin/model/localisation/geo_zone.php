@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelLocalisationGeoZone extends Model {
 	public function addGeoZone($data) {
 		$this->db->query("INSERT INTO " . DB_PREFIX . "geo_zone SET name = '" . $this->db->escape($data['name']) . "', description = '" . $this->db->escape($data['description']) . "', date_added = NOW()");

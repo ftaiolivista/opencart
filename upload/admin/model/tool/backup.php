@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelToolBackup extends Model {
 	public function restore($sql) {
 		foreach (explode(";\n", $sql) as $sql) {

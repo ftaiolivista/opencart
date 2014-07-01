@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Cart {
 	private $config;
 	private $db;

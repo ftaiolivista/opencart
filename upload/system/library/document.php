@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Document {
 	private $title;
 	private $description;

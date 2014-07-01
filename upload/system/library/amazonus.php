@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Amazonus {
 	private $token;
 	private $encPass;

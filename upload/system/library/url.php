@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Url {
 	private $url;
 	private $ssl;

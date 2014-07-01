@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Currency {
 	private $code;
 	private $currencies = array();

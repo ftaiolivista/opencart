@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Cache {
 	private $expire = 3600;
 

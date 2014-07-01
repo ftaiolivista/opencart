@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 final class Front {
 	protected $registry;
 	protected $pre_action = array();

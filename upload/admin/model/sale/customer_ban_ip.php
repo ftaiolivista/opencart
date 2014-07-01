@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelSaleCustomerBanIp extends Model {
 	public function addCustomerBanIp($data) {
 		$this->db->query("INSERT INTO `" . DB_PREFIX . "customer_ban_ip` SET `ip` = '" . $this->db->escape($data['ip']) . "'");

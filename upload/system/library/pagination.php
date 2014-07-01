@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Pagination {
 	public $total = 0;
 	public $page = 1;

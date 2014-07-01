@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelSaleRecurring extends Model {
 	public function getTotalProfiles($data) {
 		$sql = "

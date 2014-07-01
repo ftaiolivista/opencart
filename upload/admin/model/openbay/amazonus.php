@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelOpenbayAmazonus extends Model {
 	public function scheduleOrders($data) {
 		$log = new Log('amazonus.log');

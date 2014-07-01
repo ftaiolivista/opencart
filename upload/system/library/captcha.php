@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Captcha {
 	protected $code;
 	protected $width = 35;

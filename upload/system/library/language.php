@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Language {
 	private $default = 'english';
 	private $directory;

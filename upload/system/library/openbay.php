@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 final class Openbay {
 	private $registry;
 	private $installed_modules = array();

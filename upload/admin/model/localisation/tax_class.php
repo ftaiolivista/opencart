@@ -1,4 +1,4 @@
-<?php 
+<?php namespace Opencart; 
 class ModelLocalisationTaxClass extends Model {
 	public function addTaxClass($data) {
 		$this->db->query("INSERT INTO " . DB_PREFIX . "tax_class SET title = '" . $this->db->escape($data['title']) . "', description = '" . $this->db->escape($data['description']) . "', date_added = NOW()");

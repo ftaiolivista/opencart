@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelOpenbayOrder extends Model {
 	public function getTotalOrders($data = array()) {
 		$sql = "SELECT COUNT(*) AS `total` FROM `" . DB_PREFIX . "order` o";

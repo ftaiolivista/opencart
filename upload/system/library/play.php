@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 final class Play {
 	/**
 	* The play module has been removed.

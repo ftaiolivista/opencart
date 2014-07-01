@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Response {
 	private $headers = array(); 
 	private $level = 0;

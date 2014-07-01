@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelToolImage extends Model {
 	public function resize($filename, $width, $height) {
 		if (!file_exists(DIR_IMAGE . $filename) || !is_file(DIR_IMAGE . $filename)) {

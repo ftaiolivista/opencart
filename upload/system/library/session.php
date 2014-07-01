@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Session {
 	public $data = array();
 			

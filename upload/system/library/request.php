@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Request {
 	public $get = array();
 	public $post = array();

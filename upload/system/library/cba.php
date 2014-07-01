@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class CBA {
 	private $access_key;
 	private $secret_key;

@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelSaleOrder extends Model {
 	public function addOrder($data) {
 		$this->load->model('setting/store');

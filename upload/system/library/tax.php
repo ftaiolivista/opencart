@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 final class Tax {
 	private $shipping_address;
 	private $payment_address;

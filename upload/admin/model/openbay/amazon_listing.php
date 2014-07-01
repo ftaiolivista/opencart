@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelOpenbayAmazonListing extends Model {
 	private $tabs = array();
 

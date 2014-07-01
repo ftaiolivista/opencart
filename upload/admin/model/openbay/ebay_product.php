@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelOpenbayEbayProduct extends Model {
 	public function getTaxRate($class_id) {
 		return $this->openbay->getTaxRate($class_id);

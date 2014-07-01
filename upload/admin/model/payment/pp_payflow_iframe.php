@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelPaymentPPPayflowIFrame extends Model {
 	public function install() {
 		$this->db->query("

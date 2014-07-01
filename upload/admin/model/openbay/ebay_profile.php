@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelOpenbayEbayProfile extends Model{
 	public function add($data) {
 		if($data['default'] == 1) {

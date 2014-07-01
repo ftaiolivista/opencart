@@ -1,4 +1,4 @@
-<?php 
+<?php namespace Opencart; 
 class ModelSettingSetting extends Model {
 	public function getSetting($group, $store_id = 0) {
 		$data = array(); 

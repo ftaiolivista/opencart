@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelCatalogProfile extends Model {
 	public function getFrequencies() {
 		return array(

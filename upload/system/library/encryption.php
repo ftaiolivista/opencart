@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 final class Encryption {
 	private $key;
 	private $iv;

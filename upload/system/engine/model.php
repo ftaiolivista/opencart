@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 abstract class Model {
 	protected $registry;
 	

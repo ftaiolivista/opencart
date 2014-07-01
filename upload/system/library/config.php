@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Config {
 	private $data = array();
 

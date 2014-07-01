@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 final class Ebay {
 	private $registry;
 	private $url    = 'https://uk.openbaypro.com/';

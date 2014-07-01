@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Affiliate {
 	private $affiliate_id;
 	private $firstname;

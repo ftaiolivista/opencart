@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Length {
 	private $lengths = array();
 

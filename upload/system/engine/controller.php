@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 abstract class Controller {
 	protected $registry;	
 	protected $id;

@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelOpenbayAmazonPatch extends Model {
 	public function runPatch($manual = true) {
 		/*

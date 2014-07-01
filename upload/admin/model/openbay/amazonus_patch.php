@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelOpenbayAmazonusPatch extends Model {
 	public function runPatch($manual = true) {
 		$this->load->model('setting/setting');

@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class Customer {
 	private $customer_id;
 	private $firstname;

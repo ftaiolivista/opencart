@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelOpenbayEbay extends Model{
 	public function install(){
 		$value                                  = array();

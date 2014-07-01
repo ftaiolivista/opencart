@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelOpenbayAmazon extends Model {
 	public function scheduleOrders($data) {
 		$log = new Log('amazon.log');

@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 final class Loader {
 	protected $registry;
 

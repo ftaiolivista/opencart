@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelSettingExtension extends Model {
 	public function getInstalled($type) {
 		$extension_data = array();

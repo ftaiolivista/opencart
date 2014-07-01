@@ -1,4 +1,4 @@
-<?php
+<?php namespace Opencart;
 class ModelOpenbayOpenbay extends Model {
 	private $url = 'http://account.openbaypro.com/';
 
